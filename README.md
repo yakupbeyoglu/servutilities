@@ -7,5 +7,4 @@ First parameter is swap area limit, second parameter is redis password
 Example 
 ```
 $ ./ServerUp.sh 5 "redis-password"
-
 ```
