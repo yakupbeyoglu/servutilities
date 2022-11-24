@@ -8,7 +8,8 @@ fi
 echo "Installing Node js 18.x  please wait"
 apt-get update -y && apt-get -y install curl
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-nvm install v16.17.1 -y
+nvm install --lts
 node -v
+apt-get install -y npm
 echo "Node js installed successfully"
 exit 0
