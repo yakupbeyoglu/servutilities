@@ -11,3 +11,4 @@ ls -la ./src/
 ./src/CreateSwap.sh $1
 ./src/RedisCreator  $2
 find src/package -name "*.sh" -exec {} \;
+exit 0

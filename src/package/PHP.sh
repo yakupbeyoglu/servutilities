@@ -13,3 +13,4 @@ apt install php8.1 libapache2-mod-php8.1
 echo "php8.1 installed, resetting apache2 server"
 systemctl restart apache2
 systemctl status apache2
+exit 0
