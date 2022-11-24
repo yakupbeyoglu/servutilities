@@ -8,6 +8,6 @@ fi
 echo "Server packages installing please wait"
 chmod +x ./src/*
 ls -la ./src/
-./CreateSwap.sh $1
-./RedisCreator  $2
+./src/CreateSwap.sh $1
+./src/RedisCreator  $2
 find src/package -name "*.sh" -exec {} \;
