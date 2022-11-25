@@ -1,5 +1,5 @@
 # servutilities
-servutilities is  include several script to create simple server with bash scripting.
+servutilities is  include several script to create simple server with shell scripting.
 
 ## To create base server you need to run below lines
 
