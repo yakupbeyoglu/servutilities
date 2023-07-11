@@ -10,5 +10,17 @@ chmod +x ./src/*
 ls -la ./src/
 ./src/CreateSwap.sh $1
 ./src/RedisCreator  $2
-find src/package -name "*.sh" -exec {} \;
+
+# Install all required packages
+for f in src/package/*.sh; do
+  bash "$f" 
+done
+
+# Install vue required packages
+for f in src/vue/*.sh; do
+  bash "$f" 
+done
+
+
+
 exit 0
