@@ -22,5 +22,4 @@ for f in src/vue/*.sh; do
 done
 
 
-
 exit 0

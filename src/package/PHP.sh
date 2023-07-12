@@ -10,7 +10,7 @@ apt-get update -y
 apt install -y software-properties-common apt-transport-https 
 add-apt-repository ppa:ondrej/php -y
 apt install -y php8.1 libapache2-mod-php8.1 
-sudo apt install -y libapache2-mod-php php-mbstring php-xmlrpc php-soap php-gd php-xml php-cli php-zip php-bcmath php-tokenizer php-json php-pear
+sudo apt install -y libapache2-mod-php php-mbstring php-mysql php-curl php-xmlrpc php-soap php-gd php-xml php-cli php-zip php-bcmath php-tokenizer php-json php-pear
 echo "php8.1 installed, resetting apache2 server"
 systemctl restart apache2
 systemctl status apache2 --no-pager
